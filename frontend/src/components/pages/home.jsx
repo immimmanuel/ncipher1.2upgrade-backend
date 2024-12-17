@@ -8,6 +8,7 @@ import Partnering from "../views/partnering";
 import JoinUs from "../views/joinUs";
 import Faqs from "../views/faqs";
 import Footer from "../views/footer";
+import CurrencyConverter from './components/CurrencyConverter';
 
 function Home() {
 
@@ -23,6 +24,7 @@ function Home() {
       <JoinUs />
       <Faqs />
       <Footer />
+      <CurrencyConverter />
     </div>
   );
 }

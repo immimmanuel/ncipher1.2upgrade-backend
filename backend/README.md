@@ -79,3 +79,18 @@ We'd like to inform you of important changes to our distribution repository [nod
 
 ## Postman Collection
 https://api.postman.com/collections/24585901-aa53bccd-cc2b-41c6-aa5b-ffe600048429?access_key=PMAT-01J406QQ1RFMBNZKYWWKGX5FMJ
+
+# Currency Converter API
+
+## Setup
+1. Clone the repo.
+2. Install dependencies: `npm install`.
+3. Create a `.env` file and add your API key.
+4. Run the app: `npm start`.
+
+## Endpoints
+- `POST /api/convert`: Convert currencies.
+- `GET /api/history`: View conversion history.
+
+## Frontend
+- Open `index.html` in your browser.
